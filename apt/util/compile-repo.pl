@@ -22,11 +22,11 @@ sub md5sum {
     return $digest;
 }
 
-system("cd ~/Documents/rossistboss.github.io");
+system("cd ~/Documents/rossistboss.github.io/apt");
 system("pwd");
 
 # scan the packages and write output to file Packages 
-system("util/dpkg-scanpackages.pl debs / > Packages");
+system("util/dpkg-scanpackages.pl --multiversion debs / > Packages");
 
 # bzip2 it to a new file 
 system("bzip2 -fks Packages");
@@ -35,7 +35,7 @@ system("bzip2 -fks Packages");
 system("gzip -f Packages");
 
 # scan again because we zipped the original file  
-system("util/dpkg-scanpackages.pl debs / > Packages");
+system("util/dpkg-scanpackages.pl --multiversion debs / > Packages");
 
 # calculate the hashes and write to Release  
 system("cp Release-Template Release");
