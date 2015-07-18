@@ -79,6 +79,20 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=typetabDp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=typetabDp
 
 Package: ml.andrewhyatt.typetab
+Version: 1.3.1
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ml.andrewhyatt.typetab_1.3.1_iphoneos-arm.deb
+Size: 8432
+Installed-Size: 200
+MD5sum: da43d444a65f957225494007e3ca2adf
+Description: Faster address entry for Safari tabs
+Name: TypeTab
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: ml.andrewhyatt.typetab
 Version: 1.3
 Section: Tweaks
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>

@@ -1,13 +1,13 @@
 Origin: Andrew Hyatt's Repo
 Label: Andrew Hyatt's Repo
 Suite: stable
-Version: 1.0
+Version: 1.0-1
 Codename: ahyattdev
 Architectures: iphoneos-arm
 Components: main
-Description: Andrew Hyatt's Repo
+Description: This repo contains beta versions of Andrew Hyatt's tweaks.
 MD5Sum:
 
-37270ea2200af0e76e2ac545b3ac7b9a 3612 Packages
-409c5e1f76a819f6b822e9cc374ac579 714 Packages.gz
-7e160b0a378ea3dd37deb3123d3a0b4d 933 Packages.bz2
+a194137506f22b1dbb784404e1b8ff7f 4018 Packages
+a4a3339e3b19b24a05efd00cf4b2b5ec 765 Packages.gz
+9d4b3de490d9a73be5d9d9a61c4dadcb 988 Packages.bz2
