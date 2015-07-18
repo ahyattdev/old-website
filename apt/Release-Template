@@ -1,7 +1,7 @@
 Origin: Andrew Hyatt's Repo
 Label: Andrew Hyatt's Repo
 Suite: stable
-Version: 1.0-1
+Version: 1.0
 Codename: ahyattdev
 Architectures: iphoneos-arm
 Components: main

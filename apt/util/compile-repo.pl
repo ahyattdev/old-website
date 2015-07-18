@@ -23,7 +23,6 @@ sub md5sum {
 }
 
 system("cd ~/Documents/rossistboss.github.io/apt");
-system("pwd");
 
 # scan the packages and write output to file Packages 
 system("util/dpkg-scanpackages.pl --multiversion debs / > Packages");
