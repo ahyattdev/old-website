@@ -1,3 +1,17 @@
+Package: io.github.rossistboss.quickmanualsub
+Version: 1.0
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//io.github.rossistboss.quickmanualsub_1.0_iphoneos-arm.deb
+Size: 4292
+Installed-Size: 88
+MD5sum: c8409225a012fbb07773554ffc56e294
+Description: Adds a manual sub button to Alien Blue
+Name: QuickManualSub
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
 Section: Tweaks
