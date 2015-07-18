@@ -1,0 +1,14 @@
+Package: ml.andrewhyatt.typetab
+Version: 1.3
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//ml.andrewhyatt.typetab_1.3_iphoneos-arm.deb
+Size: 8374
+Installed-Size: 200
+MD5sum: 5fc8371cf6b50d9d8c4b456c7939eeeb
+Description: Type into the Safari address bar immediatly after creating a new tab
+Name: TypeTab
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
