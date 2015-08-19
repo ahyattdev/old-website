@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//io.github.rossistboss.quickmanualsub_1.0_iphoneos-arm.deb
+Filename: ./debs//io.github.rossistboss.quickmanualsub_1.0_iphoneos-arm.deb
 Size: 4292
 Installed-Size: 88
 MD5sum: c8409225a012fbb07773554ffc56e294
@@ -18,7 +18,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.hardwarekeyboardfix_1.0-1_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.hardwarekeyboardfix_1.0-1_iphoneos-arm.deb
 Size: 2026
 Installed-Size: 24
 MD5sum: 36754e4ee48a1b14412cdf11ad139f18
@@ -34,7 +34,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.hardwarekeyboardfix_1.1-1_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.hardwarekeyboardfix_1.1-1_iphoneos-arm.deb
 Size: 2100
 Installed-Size: 24
 MD5sum: 68d5725950b1f4e4bef79b5c8a37dfa1
@@ -50,7 +50,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.hardwarekeyboardfix_1.1-2_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.hardwarekeyboardfix_1.1-2_iphoneos-arm.deb
 Size: 2904
 Installed-Size: 76
 MD5sum: 74413a110e23ef760ceced3d141dd9e5
@@ -66,7 +66,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.typetab_1.0-1_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.typetab_1.0-1_iphoneos-arm.deb
 Size: 3668
 Installed-Size: 81
 MD5sum: 4fed088424076d3ce3a1d3e4573e5d9f
@@ -82,7 +82,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.typetab_1.2-1_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.typetab_1.2-1_iphoneos-arm.deb
 Size: 4026
 Installed-Size: 81
 MD5sum: a1a75d2ac74555f3753405ab43fedef2
@@ -98,7 +98,7 @@ Section: Tweaks
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.typetab_1.3.1_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.typetab_1.3.1_iphoneos-arm.deb
 Size: 8432
 Installed-Size: 200
 MD5sum: da43d444a65f957225494007e3ca2adf
@@ -112,7 +112,7 @@ Section: Tweaks
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs//ml.andrewhyatt.typetab_1.3_iphoneos-arm.deb
+Filename: ./debs//ml.andrewhyatt.typetab_1.3_iphoneos-arm.deb
 Size: 8374
 Installed-Size: 200
 MD5sum: 5fc8371cf6b50d9d8c4b456c7939eeeb

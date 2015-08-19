@@ -25,16 +25,13 @@ sub md5sum {
 system("cd ~/Documents/rossistboss.github.io/apt");
 
 # scan the packages and write output to file Packages 
-system("util/dpkg-scanpackages.pl --multiversion debs / > Packages");
+system("util/dpkg-scanpackages.pl --multiversion ./debs / > Packages");
 
 # bzip2 it to a new file 
 system("bzip2 -fks Packages");
 
 # gzip it  
-system("gzip -f Packages");
-
-# scan again because we zipped the original file  
-system("util/dpkg-scanpackages.pl --multiversion debs / > Packages");
+system("gzip -fk Packages");
 
 # calculate the hashes and write to Release  
 system("cp Release-Template Release");
