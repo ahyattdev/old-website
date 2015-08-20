@@ -13,16 +13,16 @@ Name: QuickManualSub
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: io.github.rossistboss.quickpasscodeentry
-Version: 1.0
+Version: 0.1
 Priority: optional
 Section: Tweaks
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 7.0)
 Architecture: iphoneos-arm
-Filename: ./debs//io.github.rossistboss.quickpasscodeentry_1.0_iphoneos-arm.deb
-Size: 3532
+Filename: ./debs//io.github.rossistboss.quickpasscodeentry_0.1_iphoneos-arm.deb
+Size: 3556
 Installed-Size: 88
-MD5sum: c2c86d5dad0bcefdca6feadc90c57c61
+MD5sum: 5512e333c81410ff53b26ad2e41cd410
 Description: Passcode entry shown when the screen comes on
 Name: QuickPasscodeEntry
 Author: Andrew Hyatt <ahyattdev@icloud.com>
