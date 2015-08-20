@@ -20,10 +20,10 @@ Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs//io.github.rossistboss.quickpasscodeentry_1.0_iphoneos-arm.deb
-Size: 3522
+Size: 3532
 Installed-Size: 88
-MD5sum: 6af5a0bd1a38d2e3f352f91f422e3042
-Description: Passcode entry shown after unlock
+MD5sum: c2c86d5dad0bcefdca6feadc90c57c61
+Description: Passcode entry shown when the screen comes on
 Name: QuickPasscodeEntry
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
