@@ -12,6 +12,21 @@ Description: Adds a manual sub button to Alien Blue
 Name: QuickManualSub
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: io.github.rossistboss.quickpasscodeentry
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs//io.github.rossistboss.quickpasscodeentry_1.0_iphoneos-arm.deb
+Size: 3522
+Installed-Size: 88
+MD5sum: 6af5a0bd1a38d2e3f352f91f422e3042
+Description: Passcode entry shown after unlock
+Name: QuickPasscodeEntry
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
 Section: Tweaks
