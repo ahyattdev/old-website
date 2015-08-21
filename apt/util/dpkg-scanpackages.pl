@@ -7,7 +7,7 @@ use IO::Handle;
 use IO::File;
 
 my $version="1.13.25"; # This line modified by Makefile
-my $dpkglibdir="/opt/local/lib/dpkg/"; # This line modified by Makefile
+my $dpkglibdir="/usr/lib/dpkg"; # This line modified by Makefile
 
 ($0) = $0 =~ m:.*/(.+):;
 
@@ -39,14 +39,14 @@ my @fieldpri= ('Package',
 	       'Architecture',
 	       'Filename',
 	       'Size',
-	       'Installed-Size',
-	       'MD5sum',
-	       'Description',
-	       'Origin',
-	       'Bugs',
-               'Name',
-               'Author',
-               'Homepage',
+            'Installed-Size',
+            'MD5sum',
+            'Description',
+            'Origin',
+            'Bugs',
+            'Name',
+            'Author',
+            'Homepage',
                'Website',
                'Depiction',
                'Icon'
@@ -268,6 +268,8 @@ close(STDOUT) or die sprintf(_g("Couldn't close stdout: %s"), $!)."\n";
 
 my @spuriousover= grep(!defined($packages{$_}),sort keys %overridden);
 
+&writelist(_g("** Packages in archive but missing from override file: **"),
+           @missingover);
 if (@changedmaint) {
     print(STDERR
           _g(" ++ Packages in override file with incorrect old maintainer value: ++")."\n",

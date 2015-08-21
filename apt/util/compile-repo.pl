@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-# Author: Patrick Muff <muff.pa@gmail.com>
-# Purpose: Compiles a Cydia repository
-
 use Digest::MD5;
  
 sub md5sum {   
@@ -22,15 +19,15 @@ sub md5sum {
     return $digest;
 }
 
-system("cd ~/Documents/rossistboss.github.io/apt");
+system("cd ~/Documents/rossistboss.github.io/apt/");
 
-# scan the packages and write output to file Packages 
-system("util/dpkg-scanpackages.pl --multiversion ./debs / > Packages");
+# scan the packages and write output to file Packages
+system("util/dpkg-scanpackages.pl -m debs Override / > Packages");
 
-# bzip2 it to a new file 
+# bzip2 it
 system("bzip2 -fks Packages");
 
-# gzip it  
+# gzip it
 system("gzip -fk Packages");
 
 # calculate the hashes and write to Release  
