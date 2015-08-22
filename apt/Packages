@@ -28,6 +28,21 @@ Description: Passcode entry shown when the screen comes on
 Name: QuickPasscodeEntry
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: io.github.rossistboss.quickpasscodeentry
+Version: 1.0-beta1
+Priority: optional
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate, firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: /debs//io.github.rossistboss.quickpasscodeentry_1.0-beta1_iphoneos-arm.deb
+Size: 4210
+Installed-Size: 88
+MD5sum: 13d715872efc8e86c7565881c6e64d11
+Description: Passcode entry shown when the screen comes on
+Name: QuickPasscodeEntry
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
 Priority: optional
@@ -140,6 +155,21 @@ Size: 8374
 Installed-Size: 200
 MD5sum: 5fc8371cf6b50d9d8c4b456c7939eeeb
 Description: Type into the Safari address bar immediatly after creating a new tab
+Name: TypeTab
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: ml.andrewhyatt.typetab
+Version: 1.4-beta1
+Priority: optional
+Section: Tweaks
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /debs//ml.andrewhyatt.typetab_1.4-beta1_iphoneos-arm.deb
+Size: 11820
+Installed-Size: 200
+MD5sum: e8aecf96c5d73886ee0b1a46486d5f93
+Description: Faster address entry for Safari tabs
 Name: TypeTab
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
