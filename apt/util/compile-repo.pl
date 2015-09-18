@@ -22,7 +22,7 @@ sub md5sum {
 system("cd ~/Documents/rossistboss.github.io/apt/");
 
 # scan the packages and write output to file Packages
-system("util/dpkg-scanpackages.pl -m debs Override / > Packages");
+system("util/dpkg-scanpackages.pl -m debs Override ./ > Packages");
 
 # bzip2 it
 system("bzip2 -fks Packages");
