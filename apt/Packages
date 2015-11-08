@@ -211,8 +211,8 @@ Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: openssh
 Architecture: iphoneos-arm
 Filename: ./debs//io.github.ahyattdev.ssh-copy-id_6.8p1_iphoneos-arm.deb
-Size: 4998
-MD5sum: d09d4ba00cd53e1eab4193dda8c4479f
+Size: 4502
+MD5sum: 9f070876e8aeff2e12e0ee47a6dd4c82
 Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
