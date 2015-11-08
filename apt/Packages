@@ -204,15 +204,15 @@ Name: TypeTab
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: ssh-copy-id
-Version: 6.8p1
+Version: 6.8p1-1
 Priority: optional
 Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: openssh
 Architecture: iphoneos-arm
-Filename: ./debs//io.github.ahyattdev.ssh-copy-id_6.8p1_iphoneos-arm.deb
-Size: 4502
-MD5sum: 9f070876e8aeff2e12e0ee47a6dd4c82
+Filename: ./debs//ssh-copy-id_6.8p1-1_iphoneos-arm.deb
+Size: 5606
+MD5sum: 3ee07059192f80161d554929b74438b5
 Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
