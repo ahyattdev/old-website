@@ -19,7 +19,7 @@ sub md5sum {
     return $digest;
 }
 
-system("cd ~/Documents/rossistboss.github.io/apt/");
+system("cd ~/Documents/ahyattdev.github.io/apt/");
 
 # scan the packages and write output to file Packages
 system("util/dpkg-scanpackages.pl -m debs Override ./ > Packages");
