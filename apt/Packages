@@ -28,6 +28,22 @@ Description: Disables the camera from flashing when using the Messages quick cam
 Name: NoMessagesFlash
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: io.github.ahyattdev.openssh
+Version: 6.7p1-12
+Priority: important
+Section: Networking
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Conflicts: openssh
+Provides: openssh
+Architecture: iphoneos-arm
+Filename: ./debs//io.github.ahyattdev.openssh_6.7p1-12_iphoneos-arm.deb
+Size: 587472
+MD5sum: 15b4f9d475ae33b6273e85b608859111
+Description: secure remote access between machines
+Name: OpenSSH
+
 Package: io.github.rossistboss.quickmanualsub
 Version: 1.0
 Priority: optional
@@ -236,7 +252,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Package: ssh-agent-autostart
 Version: 6.8p1
 Priority: optional
-Section: System
+Section: Networking
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: openssh
 Architecture: iphoneos-arm

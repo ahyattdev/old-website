@@ -4,4 +4,5 @@ ml.andrewhyatt.typetab optional Tweaks Andrew Hyatt <ahyattdev@icloud.com>
 ml.andrewhyatt.hardwarekeyboardfix optional Tweaks Andrew Hyatt <ahyattdev@icloud.com>
 io.github.ahyattdev.nomessagesflash optional Tweaks Andrew Hyatt <ahyattdev@icloud.com>
 ssh-copy-id optional System Andrew Hyatt <ahyattdev@icloud.com>
-ssh-agent-autostart optional System Andrew Hyatt <ahyattdev@icloud.com>
+ssh-agent-autostart optional Networking Andrew Hyatt <ahyattdev@icloud.com>
+io.github.ahyattdev.openssh important Networking Andrew Hyatt <ahyattdev@icloud.com>
