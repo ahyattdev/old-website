@@ -61,6 +61,22 @@ Description: secure remote access between machines
 Name: OpenSSH
 
 Package: io.github.ahyattdev.openssh
+Version: 6.7p1-12-rev-3
+Priority: important
+Section: Networking
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Conflicts: openssh
+Provides: openssh
+Architecture: iphoneos-arm
+Filename: ./debs//io.github.ahyattdev.openssh_6.7p1-12-rev-3_iphoneos-arm.deb
+Size: 587286
+MD5sum: 32dec4e686b374ab42cba5b2063a2cc9
+Description: secure remote access between machines
+Name: OpenSSH
+
+Package: io.github.ahyattdev.openssh
 Version: 6.7p1-12
 Priority: important
 Section: Networking
