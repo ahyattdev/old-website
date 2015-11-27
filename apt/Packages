@@ -330,6 +330,20 @@ Name: TypeTab
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: ssh-agent-autostart
+Version: 6.8p1-rev-2
+Priority: optional
+Section: Networking
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: openssh
+Architecture: iphoneos-arm
+Filename: ./debs//ssh-agent-autostart_6.8p1-rev-2_iphoneos-arm.deb
+Size: 1228
+MD5sum: 2e741da4eed51892fd2a538745e3999c
+Description: Starts ssh-agent when the device boots
+Name: ssh-agent autostart
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: ssh-agent-autostart
 Version: 6.8p1-rev1
 Priority: optional
 Section: Networking
