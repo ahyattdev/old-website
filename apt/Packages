@@ -29,6 +29,22 @@ Name: NoMessagesFlash
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: io.github.ahyattdev.openssh
+Version: 6.7p1-12-rev-1
+Priority: important
+Section: Networking
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Conflicts: openssh
+Provides: openssh
+Architecture: iphoneos-arm
+Filename: ./debs//io.github.ahyattdev.openssh_6.7p1-12-rev-1_iphoneos-arm.deb
+Size: 587776
+MD5sum: 1ce7f6b679f688901406ab4a3a4adba5
+Description: secure remote access between machines
+Name: OpenSSH
+
+Package: io.github.ahyattdev.openssh
 Version: 6.7p1-12
 Priority: important
 Section: Networking
