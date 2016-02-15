@@ -1,4 +1,17 @@
 Package: autoconf
+Version: 2.69-1
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: m4, perl
+Architecture: iphoneos-arm
+Filename: ./debs//autoconf_1.69-1_iphoneos-arm.deb
+Size: 554052
+MD5sum: 083a7f181cf3d4bdd7a98330615cb0a3
+Description: autoconf
+Name: autoconf
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: autoconf
 Version: 2.69
 Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
