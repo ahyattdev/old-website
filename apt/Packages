@@ -1,3 +1,16 @@
+Package: autoconf
+Version: 2.69
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: m4, perl
+Architecture: iphoneos-arm
+Filename: ./debs//autoconf_2.69_iphoneos-arm.deb
+Size: 553980
+MD5sum: 5a9dccbfbdf35919ade9bdb3be4bd6b8
+Description: autoconf
+Name: autoconf
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
 Package: io.github.ahyattdev.nomessagesflash
 Version: 1.0
 Priority: optional
@@ -123,51 +136,6 @@ Size: 587472
 MD5sum: 15b4f9d475ae33b6273e85b608859111
 Description: secure remote access between machines
 Name: OpenSSH
-
-Package: io.github.rossistboss.quickmanualsub
-Version: 1.0
-Priority: optional
-Section: Tweaks
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs//io.github.rossistboss.quickmanualsub_1.0_iphoneos-arm.deb
-Size: 4292
-Installed-Size: 88
-MD5sum: c8409225a012fbb07773554ffc56e294
-Description: Adds a manual sub button to Alien Blue
-Name: QuickManualSub
-Author: Andrew Hyatt <ahyattdev@icloud.com>
-
-Package: io.github.rossistboss.quickpasscodeentry
-Version: 0.1
-Priority: optional
-Section: Tweaks
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Depends: mobilesubstrate, firmware (>= 7.0)
-Architecture: iphoneos-arm
-Filename: ./debs//io.github.rossistboss.quickpasscodeentry_0.1_iphoneos-arm.deb
-Size: 3556
-Installed-Size: 88
-MD5sum: 5512e333c81410ff53b26ad2e41cd410
-Description: Passcode entry shown when the screen comes on
-Name: QuickPasscodeEntry
-Author: Andrew Hyatt <ahyattdev@icloud.com>
-
-Package: io.github.rossistboss.quickpasscodeentry
-Version: 1.0-beta1
-Priority: optional
-Section: Tweaks
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Depends: mobilesubstrate, firmware (>= 7.0)
-Architecture: iphoneos-arm
-Filename: ./debs//io.github.rossistboss.quickpasscodeentry_1.0-beta1_iphoneos-arm.deb
-Size: 4210
-Installed-Size: 88
-MD5sum: 13d715872efc8e86c7565881c6e64d11
-Description: Passcode entry shown when the screen comes on
-Name: QuickPasscodeEntry
-Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
