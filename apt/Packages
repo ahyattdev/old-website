@@ -1,5 +1,6 @@
 Package: autoconf
 Version: 2.69-1
+Priority: optional
 Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: m4, perl
@@ -13,6 +14,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: autoconf
 Version: 2.69
+Priority: optional
 Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: m4, perl
@@ -366,5 +368,19 @@ Size: 4508
 MD5sum: dca80575e5dbe45cd489149f14531ed1
 Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: xz-utils
+Version: 5.2.2
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: 
+Architecture: iphoneos-arm
+Filename: ./debs//xz-utils_5.2.2_iphoneos-arm.deb
+Size: 607276
+MD5sum: 56d8bd17ec57b6593047901c07d0eb0c
+Description: xz-utils
+Name: xz-utils
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 

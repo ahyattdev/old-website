@@ -6,3 +6,5 @@ io.github.ahyattdev.nomessagesflash optional Tweaks Andrew Hyatt <ahyattdev@iclo
 ssh-copy-id optional System Andrew Hyatt <ahyattdev@icloud.com>
 ssh-agent-autostart optional Networking Andrew Hyatt <ahyattdev@icloud.com>
 io.github.ahyattdev.openssh important Networking Andrew Hyatt <ahyattdev@icloud.com>
+autoconf optional System Andrew Hyatt <ahyattdev@icloud.com>
+xz-utils optional System Andrew Hyatt <ahyattdev@icloud.com>
