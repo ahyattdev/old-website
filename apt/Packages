@@ -377,8 +377,8 @@ Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//xz-utils_5.2.2_iphoneos-arm.deb
-Size: 607268
-MD5sum: 5535529d16e655f6aa874ca54f321e3d
+Size: 617822
+MD5sum: 9f542e839bb76f517a3c2162774ccb41
 Description: xz-utils
 Name: xz-utils
 Author: Andrew Hyatt <ahyattdev@icloud.com>
