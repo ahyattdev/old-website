@@ -1,7 +1,7 @@
 Package: autoconf
 Version: 2.69-1
 Priority: optional
-Section: System
+Section: Development
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: m4, perl
 Architecture: iphoneos-arm
@@ -15,7 +15,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Package: autoconf
 Version: 2.69
 Priority: optional
-Section: System
+Section: Development
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: m4, perl
 Architecture: iphoneos-arm
@@ -24,6 +24,23 @@ Size: 553980
 MD5sum: 5a9dccbfbdf35919ade9bdb3be4bd6b8
 Description: autoconf
 Name: autoconf
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: automake
+Version: 1.15
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: autoconf (>= 2.69)
+Architecture: iphoneos-arm
+Filename: ./debs//automake_1.15_iphoneos-arm.deb
+Size: 531110
+MD5sum: 415064ddea0ae89ca6fbf2744dce6ad9
+Description: 
+ Automake is a tool for automatically generating
+ Makefile.in files compliant with the GNU Coding Standards.
+ Automake requires the use of Autoconf.
+Name: automake
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: io.github.ahyattdev.nomessagesflash
@@ -345,7 +362,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Package: ssh-copy-id
 Version: 6.8p1-rev1
 Priority: optional
-Section: System
+Section: Networking
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: openssh
 Architecture: iphoneos-arm
@@ -359,7 +376,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Package: ssh-copy-id
 Version: 6.8p1
 Priority: optional
-Section: System
+Section: Networking
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: openssh
 Architecture: iphoneos-arm
@@ -373,7 +390,7 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Package: xz-utils
 Version: 5.2.2
 Priority: optional
-Section: System
+Section: Development
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//xz-utils_5.2.2_iphoneos-arm.deb
