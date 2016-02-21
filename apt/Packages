@@ -92,6 +92,29 @@ Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
+Package: help2man
+Version: 1.47.3
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: perl (>= 5.0)
+Architecture: iphoneos-arm
+Filename: ./debs//help2man_1.47.3_iphoneos-arm.deb
+Size: 14496
+MD5sum: 26ffa15d362604f7354946ef2f46626d
+Description: help2man is a tool for automatically generating simple manual pages from program output.
+ help2man is a tool for automatically generating simple manual pages from
+ program output. Although manual pages are optional for GNU programs
+ other projects, such as Debian require them (see Man Pages) This program
+ is intended to provide an easy way for software authors to include a manual
+ page in their distribution without having to maintain that document.
+ Given a program which produces reasonably standard ‘--help’
+ and ‘--version’ outputs, help2man can re-arrange that output
+ into something which resembles a manual page.
+Name: help2man
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/help2man/
+
 Package: io.github.ahyattdev.nomessagesflash
 Version: 1.0
 Priority: optional
