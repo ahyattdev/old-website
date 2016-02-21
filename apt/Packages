@@ -44,6 +44,22 @@ Name: automake
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: gettext
+Version: 0.19.7-1
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./debs//gettext_0.19.7-1_iphoneos-arm.deb
+Size: 2158192
+MD5sum: 7f3ec7968807124942e94bf271e10e6b
+Description: Internationalization helper for strings.
+ Compiled as fat binaries for armv7, armv7s, and arm64 devices.
+Name: gettext
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: http://www.gnu.org/software/gettext/
+
+Package: gettext
 Version: 0.19.7
 Priority: optional
 Section: System
