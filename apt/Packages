@@ -219,6 +219,24 @@ Description: secure remote access between machines
 Name: OpenSSH
 
 Package: libtool
+Version: 2.4.6-1
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: file, libtool-fix
+Architecture: iphoneos-arm
+Filename: ./debs//libtool_2.4.6-1_iphoneos-arm.deb
+Size: 448230
+MD5sum: 41d9a5b51ce9f1d6a91f2fdcedd18094
+Description: Generic library support script
+ GNU libtool is a generic library support script.
+ Libtool hides the complexity of using shared libraries
+ behind a consistent, portable interface.
+Name: libtool
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libtool
 Version: 2.4.6
 Priority: optional
 Section: Development
@@ -235,6 +253,25 @@ Description: Generic library support script
 Name: libtool
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: https://www.gnu.org/software/libtool/
+
+Package: libtool-fix
+Version: 1.0
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: libtool
+Architecture: iphoneos-arm
+Filename: ./debs//libtool-fix_1.0_iphoneos-arm.deb
+Size: 820
+MD5sum: 5f507855e4e508b7ae47296fc8058db9
+Description: Fixes an issue with libtool
+ Fixes an issue with libtool by creating a symbolic link at
+ /usr/local/bin/gsed that points to /bin/sed
+ and one from /usr/bin/grep to
+ /bin/grep to fix an issue due to the location
+ of coreutils and libtool.
+Name: libtool-fix
+Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
