@@ -218,6 +218,24 @@ MD5sum: 15b4f9d475ae33b6273e85b608859111
 Description: secure remote access between machines
 Name: OpenSSH
 
+Package: libtool
+Version: 2.4.6
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: file
+Architecture: iphoneos-arm
+Filename: ./debs//libtool_2.4.6_iphoneos-arm.deb
+Size: 448068
+MD5sum: c660c267a8288a0a936aedf94fc4106a
+Description: Generic library support script
+ GNU libtool is a generic library support script.
+ Libtool hides the complexity of using shared libraries
+ behind a consistent, portable interface.
+Name: libtool
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/libtool/
+
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
 Priority: optional
