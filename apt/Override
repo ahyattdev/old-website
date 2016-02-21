@@ -9,3 +9,4 @@ io.github.ahyattdev.openssh important Networking Andrew Hyatt <ahyattdev@icloud.
 autoconf optional Development Andrew Hyatt <ahyattdev@icloud.com>
 automake optional Development Andrew Hyatt <ahyattdev@icloud.com>
 xz-utils optional Development Andrew Hyatt <ahyattdev@icloud.com>
+gettext optional System Andrew Hyatt <ahyattdev@icloud.com>
