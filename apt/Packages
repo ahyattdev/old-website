@@ -77,6 +77,23 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
 Package: gettext
+Version: 0.19.7-3
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./debs//gettext_0.19.7-3_iphoneos-arm.deb
+Size: 3903120
+MD5sum: 940fdf6a40494d7500a0086b26c4d86c
+Description: Internationalization helper for strings.
+ Internationalization helper for strings.
+ Compiled with fat binaries for armv7, armv7s, arm64, i386, and x86_64 devices.
+Name: gettext
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: http://www.gnu.org/software/gettext/
+
+Package: gettext
 Version: 0.19.7
 Priority: optional
 Section: System
