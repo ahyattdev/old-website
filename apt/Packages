@@ -13,6 +13,20 @@ Name: autoconf
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: autoconf
+Version: 2.69-2
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: m4, perl
+Architecture: iphoneos-arm
+Filename: ./debs//autoconf_2.69-2_iphoneos-arm.deb
+Size: 555696
+MD5sum: 2086f78fb30bf8fff1e026ab0927815a
+Description: autoconf
+Name: autoconf
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: autoconf
 Version: 2.69
 Priority: optional
 Section: Development
@@ -268,6 +282,24 @@ Architecture: iphoneos-arm
 Filename: ./debs//libtool_2.4.6-1_iphoneos-arm.deb
 Size: 448230
 MD5sum: 41d9a5b51ce9f1d6a91f2fdcedd18094
+Description: Generic library support script
+ GNU libtool is a generic library support script.
+ Libtool hides the complexity of using shared libraries
+ behind a consistent, portable interface.
+Name: libtool
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libtool
+Version: 2.4.6-2
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: file, libtool-fix
+Architecture: iphoneos-arm
+Filename: ./debs//libtool_2.4.6-2_iphoneos-arm.deb
+Size: 444240
+MD5sum: cfcce016aa3ce997264067a250d67da8
 Description: Generic library support script
  GNU libtool is a generic library support script.
  Libtool hides the complexity of using shared libraries
