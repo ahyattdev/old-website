@@ -387,8 +387,8 @@ Section: Scripting
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//m4_1.4.17_iphoneos-arm.deb
-Size: 504178
-MD5sum: d71a24748b993c60a7eea028df9de976
+Size: 504066
+MD5sum: 23e51e9bd50963727b8baecb4e9b094c
 Description: The GNU M4 macro processor
  GNU M4 is an implementation of the traditional Unix macro processor.
  It is mostly SVR4 compatible although it has some extensions (for example,
