@@ -41,6 +41,23 @@ Name: autoconf
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: automake
+Version: 1.15-1
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: autoconf (>= 2.69)
+Architecture: iphoneos-arm
+Filename: ./debs//automake_1.15-1_iphoneos-arm.deb
+Size: 530868
+MD5sum: 1a40c4b609356c26e0474c57c8d0a48f
+Description: 
+ Automake is a tool for automatically generating
+ Makefile.in files compliant with the GNU Coding Standards.
+ Automake requires the use of Autoconf.
+Name: automake
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: automake
 Version: 1.15
 Priority: optional
 Section: Development
@@ -309,6 +326,24 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: https://www.gnu.org/software/libtool/
 
 Package: libtool
+Version: 2.4.6-3
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: file, libtool-fix
+Architecture: iphoneos-arm
+Filename: ./debs//libtool_2.4.6-3_iphoneos-arm.deb
+Size: 443880
+MD5sum: 49fffe2315ac899377b87f1a415128d7
+Description: Generic library support script
+ GNU libtool is a generic library support script.
+ Libtool hides the complexity of using shared libraries
+ behind a consistent, portable interface.
+Name: libtool
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/libtool/
+
+Package: libtool
 Version: 2.4.6
 Priority: optional
 Section: Development
@@ -344,6 +379,32 @@ Description: Fixes an issue with libtool
  of coreutils and libtool.
 Name: libtool-fix
 Author: Andrew Hyatt <ahyattdev@icloud.com>
+
+Package: m4
+Version: 1.4.17
+Priority: important
+Section: Scripting
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//m4_1.4.17_iphoneos-arm.deb
+Size: 504178
+MD5sum: d71a24748b993c60a7eea028df9de976
+Description: The GNU M4 macro processor
+ GNU M4 is an implementation of the traditional Unix macro processor.
+ It is mostly SVR4 compatible although it has some extensions (for example,
+ handling more than 9 positional parameters to macros).
+ GNU M4 also has built-in functions for including files,
+ running shell commands, doing arithmetic, etc.
+ GNU M4 is a macro processor in the sense that it copies its input to the
+ output expanding macros as it goes.
+ Macros are either builtin or user-defined and can take any number of arguments.
+ Besides just doing macro expansion, m4 has builtin functions for including
+ named files, running UNIX commands, doing integer arithmetic,
+ manipulating text in various ways, recursion etc... m4 can be used
+ either as a front-end to a compiler or as a macro processor in its own right.
+Name: m4
+Author: Andrew Hyatt <ahyattdev@icloud.com>
+Homepage: https://www.gnu.org/software/m4/
 
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
