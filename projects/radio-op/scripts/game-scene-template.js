@@ -41,19 +41,23 @@ var gameSceneTemplate = {
     currentCharacter: 0,
     
     create: function() {
+        
+        this.transcriptIndex = -1;
+        this.currentCharacter = 0;
         this.quitLabel = game.add.text(5, 5, "Press Escape to quit", defaultStyle);
         
         this.detailLabel = game.add.text(game.world.centerX, game.world.height / 5, "", defaultStyle);
         this.detailLabel.anchor.set(0.5, 0.5);
         
         this.game.input.keyboard.addCallbacks(this, null, null, this.handleKeyPress);
-        this.game.input.keyboard.addKey(this.game.input.keyboard.ESCAPE).onDown.addOnce(function() {
-            this.game.state.start("menu");
-        });
         
         if (typeof this.transcriptData == "object") {
             this.displayTranscript();
         }
+        
+        this.game.input.keyboard.addKey(Phaser.KeyCode.ESC).onDown.addOnce(function() {
+            this.game.state.start("menu");
+        });
     },
     
     displayMorseText: function(text) {
@@ -102,6 +106,7 @@ var gameSceneTemplate = {
     },
     
     handleKeyPress(key) {
+        
         if (this.guessingCharacters) {
             if (key.toUpperCase() == this.displayedMorseText[this.currentCharacter].toUpperCase()) {
                 var label = this.morseLabels[this.currentCharacter];
