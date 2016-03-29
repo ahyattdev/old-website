@@ -3,12 +3,12 @@ var menu = {
     selectedButton: 0,
     
     selectedButtonStyle: {
-        font: "18px Arial",
+        font: "24px Arial",
         fill: "#FFFFFF"
     },
     
     normalButtonStyle: {
-        font: "18px Arial",
+        font: "24px Arial",
         fill: "#888888"
     },
     
@@ -17,21 +17,27 @@ var menu = {
             name: "Scenario: Titanic",
             state: "titanic"
         }, {
-            name: "Temporary",
-            state: "none"
+            name: "Practice",
+            state: "practice"
         }
     ],
     
     create: function() {
         var title = game.add.text(game.world.centerX, game.world.height / 4, "Radio Operator Simulator", {
-            font: "24px Arial",
+            font: "36px Arial",
             fill: "#FFFFFF"
         });
         title.anchor.set(0.5, 0.5);
         
+        var instructions = this.game.add.text(this.game.world.centerX, this.game.world.height / 4 + (this.game.world.height / 10), "Use the up and down arrows to select a menu item.\nWhen in the game, type in the letter of the current morse character.", {
+            font: "18px Arial",
+            fill: "#FFFFFF"
+        });
+        instructions.anchor.set(0.5, 0.5);
+        
         for (var i = 0; i < this.menuButtons.length; i ++) {
             var data = this.menuButtons[i];
-            var button = game.add.text(game.world.centerX, 3 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
+            var button = game.add.text(game.world.centerX, 4 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
             button.anchor.set(0.5, 0.5);
             
             data.button = button;
