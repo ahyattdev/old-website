@@ -105,7 +105,7 @@ var gameSceneTemplate = {
         }
     },
     
-    handleKeyPress(key) {
+    handleKeyPress: function(key) {
         
         if (this.guessingCharacters) {
             if (key.toUpperCase() == this.displayedMorseText[this.currentCharacter].toUpperCase()) {
