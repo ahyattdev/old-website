@@ -11,7 +11,7 @@ var titanicMessages = [
     ["Do you require assistance", "12:25 AM" + TO_TITANIC],
     ["Yes come quick", "12:26 AM" + TO_CAPARTHIA],
     ["Putting about", "12:32 AM" + TO_TITANIC],
-    ["and heading for you", "12:32 AM" + TO_TITANIC]
+    ["and heading for you", "12:32 AM" + TO_TITANIC],
     ["SOS Titanic", "12:40 AM" + TO_CAPARTHIA],
     ["sinking by the head", "12:40 AM" + TO_CAPARTHIA],
     ["We are putting passengers", "1:30 AM" + TO_OLYMPIC],
