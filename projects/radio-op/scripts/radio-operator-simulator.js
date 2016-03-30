@@ -1,7 +1,5 @@
 var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, "game");
 
-document.getElementById("game").children[0].style.border = "0px";
-
 var defaultStyle = {
     font: "24px Arial",
     fill: "#FFFFFF"
@@ -22,3 +20,5 @@ game.state.add("menu", menu);
 game.state.add("titanic", titanic);
 
 game.state.start("load");
+
+document.getElementById("game").children[0].style.border = "0px";
