@@ -1,6 +1,6 @@
 var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, "game");
 
-document.getElementById("name").children[0].style.border = "0px";
+document.getElementById("game").children[0].style.border = "0px";
 
 var defaultStyle = {
     font: "24px Arial",
