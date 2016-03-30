@@ -23,13 +23,13 @@ var menu = {
     ],
     
     create: function() {
-        var title = game.add.text(game.world.centerX, game.world.height / 4, "Radio Operator Simulator", {
+        var title = game.add.text(game.world.centerX, game.world.height / 4, "Radio Operator Simulator\nBy Andrew Hyatt from Acalanes High School", {
             font: "36px Arial",
             fill: "#FFFFFF"
         });
         title.anchor.set(0.5, 0.5);
         
-        var instructions = this.game.add.text(this.game.world.centerX, this.game.world.height / 4 + (this.game.world.height / 10), "Use the up and down arrows to select a menu item.\nWhen in the game, type in the letter of the current morse character.", {
+        var instructions = this.game.add.text(this.game.world.centerX, this.game.world.height / 4 + (this.game.world.height / 10), "Press enter to play the game. Then, enter in the character of the morse code in red. The game will be completed after 15 rounds.", {
             font: "18px Arial",
             fill: "#FFFFFF"
         });
@@ -37,7 +37,7 @@ var menu = {
         
         for (var i = 0; i < this.menuButtons.length; i ++) {
             var data = this.menuButtons[i];
-            var button = game.add.text(game.world.centerX, 4 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
+            var button = game.add.text(game.world.centerX, 3 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
             button.anchor.set(0.5, 0.5);
             
             data.button = button;

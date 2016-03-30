@@ -139,7 +139,11 @@ var gameSceneTemplate = {
     },
     
     completedTranscript: function() {
-        
+        this.detailLabel.text = "Congratulations, you have sucessfully transcoded the transmissions of the titanic!";
+        this.detailLabel.setStyle(solvedStyle);
+        this.game.time.events.add(6000, function() {
+            this.game.state.start("menu");
+        }, this);
     },
     
     nextTranscriptEntry: function() {
