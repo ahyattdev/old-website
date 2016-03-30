@@ -20,5 +20,3 @@ game.state.add("menu", menu);
 game.state.add("titanic", titanic);
 
 game.state.start("load");
-
-document.getElementById("game").children[0].style.border = "0px";
