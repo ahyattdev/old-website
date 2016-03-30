@@ -16,16 +16,14 @@ var menu = {
         {
             name: "Scenario: Titanic",
             state: "titanic"
-        }, {
-            name: "Practice",
-            state: "practice"
         }
     ],
     
     create: function() {
         var title = game.add.text(game.world.centerX, game.world.height / 4, "Radio Operator Simulator\nBy Andrew Hyatt from Acalanes High School", {
             font: "36px Arial",
-            fill: "#FFFFFF"
+            fill: "#FFFFFF",
+            align: "center"
         });
         title.anchor.set(0.5, 0.5);
         
@@ -37,7 +35,7 @@ var menu = {
         
         for (var i = 0; i < this.menuButtons.length; i ++) {
             var data = this.menuButtons[i];
-            var button = game.add.text(game.world.centerX, 3 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
+            var button = game.add.text(game.world.centerX, 5 * game.world.height / 8 + (game.world.height / 10 * i), data.name, this.normalButtonStyle);
             button.anchor.set(0.5, 0.5);
             
             data.button = button;
