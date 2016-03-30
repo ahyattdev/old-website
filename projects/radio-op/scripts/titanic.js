@@ -10,12 +10,16 @@ var titanicMessages = [
     ["Shall I tell my captain", "12:25 AM" + TO_TITANIC],
     ["Do you require assistance", "12:25 AM" + TO_TITANIC],
     ["Yes come quick", "12:26 AM" + TO_CAPARTHIA],
-    ["Putting about and heading for you", "12:32 AM" + TO_TITANIC],
-    ["SOS Titanic sinking by the head", "12:40 AM" + TO_CAPARTHIA],
-    ["We are putting passengers off in small boats", "1:30 AM" + TO_OLYMPIC],
+    ["Putting about", "12:32 AM" + TO_TITANIC],
+    ["and heading for you", "12:32 AM" + TO_TITANIC]
+    ["SOS Titanic", "12:40 AM" + TO_CAPARTHIA],
+    ["sinking by the head", "12:40 AM" + TO_CAPARTHIA],
+    ["We are putting passengers", "1:30 AM" + TO_OLYMPIC],
+    ["off in small boats", "1:30 AM" + TO_OLYMPIC],
     ["SOS SOS CQD CQD Titanic", "2:15 AM" + TO_CAPARTHIA],
     ["We are sinking fast", "2:15 AM" + TO_CAPARTHIA],
-    ["Passengers are being put into boats", "2:15 AM" + TO_CAPARTHIA]
+    ["Passengers are being", "2:15 AM" + TO_CAPARTHIA],
+    ["put into boats", "2:15 AM" + TO_CAPARTHIA]
 ];
 
 var titanic = Object.create(gameSceneTemplate);
