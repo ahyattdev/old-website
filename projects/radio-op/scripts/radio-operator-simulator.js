@@ -17,6 +17,7 @@ var solvedStyle = {
 
 game.state.add("load", load);
 game.state.add("menu", menu);
-game.state.add("titanic", titanic);
+game.state.add("titanic", new Titanic());
+game.state.add("pearlharbor", new PearlHarbor());
 
 game.state.start("load");

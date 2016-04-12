@@ -16,6 +16,9 @@ var menu = {
         {
             name: "Scenario: Titanic",
             state: "titanic"
+        }, {
+            name: "Scenario: Pearl Harbor",
+            state: "pearlharbor"
         }
     ],
     
