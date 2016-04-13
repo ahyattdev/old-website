@@ -1,3 +1,5 @@
+var PROJECT_VERSION = "1.3";
+
 // Main JS file
 // This one is always run last
 

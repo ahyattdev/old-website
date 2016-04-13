@@ -1,7 +1,4 @@
 var menuState = {
-    preload: function () {
-        
-    },
     
     create: function () {
         // Resize the game world
@@ -25,10 +22,10 @@ var menuState = {
         game.add.tween(startLabel).to({angle: -2}, 500).to({angle: 2}, 500).loop().start();
         this.muteButton = game.add.button(20, 20, "mute", this.toggleSound, this);
         
-        this.versionLabel = this.game.add.text(20, this.game.height-20, "Version 1.2", { font: '18px Arial', fill: '#ffffff' });
+        this.versionLabel = this.game.add.text(20, this.game.height-20, "Version " + PROJECT_VERSION, { font: '18px Arial', fill: '#ffffff' });
         this.versionLabel.anchor.setTo(0, 1);
         
-        this.creatorsLabel = this.game.add.text(this.game.width-20, this.game.height-20, "Andy Hyatt, Taimoor Qureshi", { font: '18px Arial', fill: '#ffffff' });
+        this.creatorsLabel = this.game.add.text(this.game.width-20, this.game.height-20, "By Andy Hyatt", { font: '18px Arial', fill: '#ffffff' });
         this.creatorsLabel.anchor.setTo(1, 1);
         
         this.muteButtonSize = {

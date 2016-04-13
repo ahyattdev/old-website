@@ -43,6 +43,14 @@ var playState = {
         this.healthLabel.anchor.setTo(0, 0);
         this.healthLabel.fixedToCamera = true;
         
+        // Add the quit instructions label
+        this.quitLabel = this.game.add.text(this.game.world.width-32, 32, "Press Escape to quit", {
+            font: "25px Arial",
+            fill: "#ffffff",
+            align: "right"
+        });
+        this.quitLabel.anchor.setTo(1, 0);
+        
         // Configure firearms
         this.fireRate = 500;
         this.nextFire = 0;
@@ -83,6 +91,11 @@ var playState = {
         if (this.game.global.clip <= 0) {
             this.reload();
         }
+        
+        // Quit when escape is pressed
+        this.game.input.keyboard.addKey(Phaser.Keyboard.ESC).onDown.addOnce(function() {
+            this.game.state.start("menu");
+        });
     },
     
     update: function () {
