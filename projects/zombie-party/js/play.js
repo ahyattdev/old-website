@@ -44,12 +44,13 @@ var playState = {
         this.healthLabel.fixedToCamera = true;
         
         // Add the quit instructions label
-        this.quitLabel = this.game.add.text(this.game.world.width-32, 32, "Press Escape to quit", {
+        this.quitLabel = this.game.add.text(this.game.camera.width-32, 32, "Press Escape to quit", {
             font: "25px Arial",
             fill: "#ffffff",
             align: "right"
         });
         this.quitLabel.anchor.setTo(1, 0);
+        this.quitLabel.fixedToCamera = true;
         
         // Configure firearms
         this.fireRate = 500;
