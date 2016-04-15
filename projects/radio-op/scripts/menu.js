@@ -30,7 +30,7 @@ var menu = {
         });
         title.anchor.set(0.5, 0.5);
         
-        var instructions = this.game.add.text(this.game.world.centerX, this.game.world.height / 4 + (this.game.world.height / 8), "Press enter to play the game.\nThen, enter in the character of the morse code in red.\nUse the arrow keys to change menu options.", {
+        var instructions = this.game.add.text(this.game.world.centerX, this.game.world.height / 4 + (this.game.world.height / 6), "Press enter to play the game.\nThen, enter in the character of the morse code in red.\nUse the arrow keys to change menu options.", {
             font: "18px Arial",
             fill: "#FFFFFF",
             align: "center"

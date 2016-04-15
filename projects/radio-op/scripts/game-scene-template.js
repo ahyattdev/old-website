@@ -85,16 +85,11 @@ var gameSceneTemplate = {
             cell.character = character;
             cell.characterVisible = false;
             
-            var multiple = 150;
-            var horizontalOffset = this.game.world.width * 0.05 + (multiple * (i + 1));
-            var verticalOffset = 0;
+            var cellsPerLine = Math.floor(this.game.world.width / 120);
+            var xOffset = Math.floor(this.game.world.width * 0.15 + (100 * (i % cellsPerLine)));
             
-            while (horizontalOffset > this.game.world.width * 0.95) {
-                horizontalOffset -= this.game.world.width * 0.8;
-                verticalOffset += 125;
-            }
-            
-            var label = this.game.add.text(horizontalOffset, game.world.centerY * 0.8 + verticalOffset, cell.getLabel(), defaultStyle);
+            var yOffset = 100 * Math.floor(i / cellsPerLine);
+            var label = this.game.add.text(xOffset, game.world.centerY * 0.8 + yOffset, cell.getLabel(), defaultStyle);
             label.anchor.set(0.5, 0.5);
             this.morseLabels[i] = label;
             label.data = cell;
