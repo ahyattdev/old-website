@@ -12,5 +12,5 @@ function PearlHarbor() {
         ["Get this to Washington", this.TIME]
     ];
     
-    this.sucess = "Congratulations, you have sucessfully simulated the experience of a radio operator during the attack on Pearl Harbor"
+    this.sucess = "Congratulations, you have sucessfully simulated the experience of\na radio operator during the attack on Pearl Harbor"
 }

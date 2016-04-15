@@ -23,6 +23,8 @@ var menu = {
     ],
     
     create: function() {
+        this.selectedButton = 0;
+        
         var title = game.add.text(game.world.centerX, game.world.height / 4, "Radio Operator Simulator\nBy Andrew Hyatt from Acalanes High School", {
             font: "36px Arial",
             fill: "#FFFFFF",
