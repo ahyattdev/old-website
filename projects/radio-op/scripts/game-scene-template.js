@@ -46,7 +46,7 @@ var gameSceneTemplate = {
         this.currentCharacter = 0;
         this.quitLabel = game.add.text(5, 5, "Press Escape to quit", defaultStyle);
         
-        this.detailLabel = game.add.text(game.world.centerX, game.world.height / 5, "", defaultStyle);
+        this.detailLabel = game.add.text(game.world.centerX, game.world.height / 5, "", defaultStyleCentered);
         this.detailLabel.anchor.set(0.5, 0.5);
         
         this.game.input.keyboard.addCallbacks(this, null, null, this.handleKeyPress);

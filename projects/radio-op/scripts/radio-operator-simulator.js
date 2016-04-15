@@ -5,6 +5,12 @@ var defaultStyle = {
     fill: "#FFFFFF"
 };
 
+var defaultStyleCentered = {
+    font: "24px Arial",
+    fill: "#FFFFFF",
+    align: "center"
+};
+
 var selectedStyle = {
     font: "24px Arial",
     fill: "#FF0000"
