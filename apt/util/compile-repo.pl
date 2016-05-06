@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 
 use Digest::MD5;
- 
-sub md5sum {   
+
+sub md5sum {
     my $file = shift;
     my $digest = "";
     eval {
@@ -14,12 +14,10 @@ sub md5sum {
     };
     if ($@) {
         print $@;
-        return ""; 
-    }  
+        return "";
+    }
     return $digest;
 }
-
-system("cd ~/Documents/ahyattdev.github.io/apt/");
 
 # scan the packages and write output to file Packages
 system("util/dpkg-scanpackages.pl -m debs Override ./ > Packages");
@@ -30,7 +28,7 @@ system("bzip2 -fks Packages");
 # gzip it
 system("gzip -fk Packages");
 
-# calculate the hashes and write to Release  
+# calculate the hashes and write to Release
 system("cp Release-Template Release");
 open(RLS, ">>Release");
 

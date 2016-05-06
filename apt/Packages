@@ -289,6 +289,23 @@ MD5sum: 15b4f9d475ae33b6273e85b608859111
 Description: secure remote access between machines
 Name: OpenSSH
 
+Package: libpipeline
+Version: 1.4.1
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//libpipeline_1.4.1_iphoneos-arm.deb
+Size: 606054
+MD5sum: f83309ee8ac3c669064faa816622d778
+Description: Pipeline manipulation library
+ libpipeline is a C library for manipulating pipelines of subprocesses
+ in a flexible and convenient way.
+ Compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: libpipeline
+Author: Colin Watson <cjwatson@debian.org>
+Homepage: http://www.nongnu.org/libpipeline/
+
 Package: libtool
 Version: 2.4.6-1
 Priority: optional
