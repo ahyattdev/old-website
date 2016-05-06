@@ -140,6 +140,30 @@ Name: gettext
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
+Package: groff
+Version: 1.22.3
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//groff_1.22.3_iphoneos-arm.deb
+Size: 2581896
+MD5sum: 5208b8c5ce1c216b3e4749dae0bbe540
+Description: Groff (GNU troff) typesetting system
+ Groff (GNU troff) is a typesetting system that reads plain text mixed
+ with formatting commands and produces formatted output. Output may be
+ PostScript or PDF, html, or ASCII/UTF8 for display at the terminal.
+ Formatting commands may be either low-level typesetting requests
+ (“primitives”) or macros from a supplied set. Users may also write
+ their own macros. All three may be combined. Present on most Unix
+ systems owing to its long association with Unix manuals (manpages),
+ groff is capable of producing typographically sophisticated documents
+ while consuming only minimal system resources.
+ Compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: groff
+Author: GNU <gnu@gnu.org>
+Homepage: http://www.gnu.org/software/groff/
+
 Package: help2man
 Version: 1.47.3
 Priority: optional
@@ -296,8 +320,8 @@ Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//libpipeline_1.4.1_iphoneos-arm.deb
-Size: 606054
-MD5sum: f83309ee8ac3c669064faa816622d778
+Size: 47236
+MD5sum: 9242d666944c66bf1b2bdc03b5f8cb4f
 Description: Pipeline manipulation library
  libpipeline is a C library for manipulating pipelines of subprocesses
  in a flexible and convenient way.
