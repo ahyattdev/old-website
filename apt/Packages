@@ -447,6 +447,28 @@ Name: m4
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: https://www.gnu.org/software/m4/
 
+Package: man-db
+Version: 2.7.5
+Priority: important
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: groff, libpipeline
+Conflicts: man, org.thebigboss.man-db
+Provides: man, org.thebigboss.man-db
+Architecture: iphoneos-arm
+Filename: ./debs//man-db_2.7.5_iphoneos-arm.deb
+Size: 271408
+MD5sum: 8446e4f0547379239c7f5f5bf7016d1a
+Description: on-line manual pager
+ man-db is an implementation of the standard Unix documentation system
+ accessed using the man command. It uses a Berkeley DB database in
+ place of the traditional flat-text whatis databases.
+ .
+ Compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: man-db
+Author: Colin Watson <cjwatson@debian.org>
+Homepage: http://man-db.nongnu.org
+
 Package: ml.andrewhyatt.hardwarekeyboardfix
 Version: 1.0-1
 Priority: optional
