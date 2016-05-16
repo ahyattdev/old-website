@@ -74,6 +74,55 @@ Description:
 Name: automake
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: file-cmds
+Version: 251
+Section: Utilities
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//file-cmds_250_iphoneos-arm.deb
+Size: 336262
+MD5sum: 0f926612331964c6e4c33efe195def63
+Description: BSD File Commands with manual pages
+ Includes the following commands:
+ chflags
+ chgrp
+ chmod
+ chgrp
+ sum
+ uncompress
+ cp
+ dd
+ df
+ du
+ gzip
+ install
+ ipcrm
+ ipcs
+ link
+ link
+ ls
+ mkdir
+ mkfifo
+ mknod
+ mv
+ pathchk
+ pax
+ readlink
+ unlink
+ rmdir
+ shar
+ stat
+ sum
+ touch
+ uncompress
+ unlink
+ .
+ Does not include the mtree command, as it requires unavailable
+ parts of CommonCrypto to compile.
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Homepage: https://opensource.apple.com/source/file_cmds/file_cmds-251/
+
 Package: gettext
 Version: 0.19.7-1
 Priority: optional
@@ -320,8 +369,8 @@ Section: System
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//libpipeline_1.4.1_iphoneos-arm.deb
-Size: 47236
-MD5sum: 9242d666944c66bf1b2bdc03b5f8cb4f
+Size: 47240
+MD5sum: 4fd88eb012882b65a4b592eb51719687
 Description: Pipeline manipulation library
  libpipeline is a C library for manipulating pipelines of subprocesses
  in a flexible and convenient way.
@@ -457,8 +506,8 @@ Conflicts: man, org.thebigboss.man-db
 Provides: man, org.thebigboss.man-db
 Architecture: iphoneos-arm
 Filename: ./debs//man-db_2.7.5_iphoneos-arm.deb
-Size: 271408
-MD5sum: 8446e4f0547379239c7f5f5bf7016d1a
+Size: 960
+MD5sum: e169c281dc60a7735522de6de5579e70
 Description: on-line manual pager
  man-db is an implementation of the standard Unix documentation system
  accessed using the man command. It uses a Berkeley DB database in
