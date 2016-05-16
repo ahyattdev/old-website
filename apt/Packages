@@ -80,8 +80,8 @@ Section: Utilities
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Architecture: iphoneos-arm
 Filename: ./debs//file-cmds_250_iphoneos-arm.deb
-Size: 348096
-MD5sum: 487fc2f06581a9ab4d348f4d6e53ec99
+Size: 348140
+MD5sum: 00b41cd341b039a1b4ff0c67ca7b5078
 Description: BSD File Commands with manual pages
  Includes the following commands:
  chflags
