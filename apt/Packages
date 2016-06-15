@@ -363,6 +363,24 @@ Description: secure remote access between machines
 Name: OpenSSH
 
 Package: libpipeline
+Version: 1.4.1-1
+Priority: optional
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//libpipeline_1.4.1-1_iphoneos-arm.deb
+Size: 56598
+MD5sum: 38bfbd94185765fd2acd283c37521797
+Description: Pipeline manipulation library
+ libpipeline is a C library for manipulating pipelines of subprocesses
+ in a flexible and convenient way.
+ .
+ Compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: libpipeline
+Author: Colin Watson <cjwatson@debian.org>
+Homepage: http://www.nongnu.org/libpipeline/
+
+Package: libpipeline
 Version: 1.4.1
 Priority: optional
 Section: System
@@ -495,6 +513,28 @@ Description: The GNU M4 macro processor
 Name: m4
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: https://www.gnu.org/software/m4/
+
+Package: man-db
+Version: 2.7.5-1
+Priority: important
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: groff, libpipeline
+Conflicts: man, org.thebigboss.man-db
+Provides: man, org.thebigboss.man-db
+Architecture: iphoneos-arm
+Filename: ./debs//man-db_2.7.5-1_iphoneos-arm.deb
+Size: 511108
+MD5sum: 9ed1138d8bd60368ac818d0f9e5ef228
+Description: on-line manual pager
+ man-db is an implementation of the standard Unix documentation system
+ accessed using the man command. It uses a Berkeley DB database in
+ place of the traditional flat-text whatis databases.
+ .
+ Compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: man-db
+Author: Colin Watson <cjwatson@debian.org>
+Homepage: http://man-db.nongnu.org
 
 Package: man-db
 Version: 2.7.5
