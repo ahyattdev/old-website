@@ -776,24 +776,22 @@ Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
-Package: swift
-Version: 3.0-1~c5572f6
-Priority: optional
-Section: Development
+Package: top
+Version: 3.7
+Priority: important
+Section: Administration
 Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: ncurses
 Architecture: iphoneos-arm
-Filename: ./debs//swift_3.0-1~c5572f6_iphoneos-arm.deb
-Size: 143703940
-MD5sum: 50635e2903f4907038a3a250ff6138ec
-Description: The Swift compiler and Clang
- This package includes the Swift 3.0 beta compiler and Clang 3.9.
+Filename: ./debs//top_3.7_iphoneos-arm.deb
+Size: 39212
+MD5sum: 99cc02b0bdcdc450359e307d0a04645c
+Description: provides a rolling display of top CPU using processes
+ Top is a Unix utility that provides a rolling display of top CPU using processes.
  .
- The latest commit included in the Swift compiler is part of the package version.
- .
- It is compiled with fat binaries for armv7, armv7s, and arm64 devices.
-Name: Swift Compiler
-Author: Swift Open Source Community
-Homepage: https://swift.org
+ Compiled for armv7 and armv7s devices
+Author: William LeFebvre
+Homepage: http://www.unixtop.org
 
 Package: xz-utils
 Version: 5.2.2-1
