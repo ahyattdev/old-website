@@ -776,6 +776,25 @@ Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: swift
+Version: 3.0-1~c5572f6
+Priority: optional
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//swift_3.0-1~c5572f6_iphoneos-arm.deb
+Size: 143703940
+MD5sum: 50635e2903f4907038a3a250ff6138ec
+Description: The Swift compiler and Clang
+ This package includes the Swift 3.0 beta compiler and Clang 3.9.
+ .
+ The latest commit included in the Swift compiler is part of the package version.
+ .
+ It is compiled with fat binaries for armv7, armv7s, and arm64 devices.
+Name: Swift Compiler
+Author: Swift Open Source Community
+Homepage: https://swift.org
+
 Package: xz-utils
 Version: 5.2.2-1
 Priority: optional
