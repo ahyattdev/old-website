@@ -415,6 +415,32 @@ Author: GNU <gnu@gnu.org>
 Homepage: https://www.gnu.org/software/libiconv
 
 Package: libiconv
+Version: 1.14-3
+Priority: standard
+Section: Development
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: ./debs//libiconv_1.14-3_iphoneos-arm.deb
+Size: 579262
+MD5sum: 6519016e33e696e73c0907cb49fe8808
+Description: text conversion library
+ For historical reasons, international text is often encoded using a language or country dependent character encoding. With the advent
+ of the internet and the frequent exchange of text across countries - even the viewing of a web page from a foreign country is a "text exchange"
+ in this context -, conversions between these encodings have become important. They have also become a problem, because many characters
+ which are present in one encoding are absent in many other encodings. To solve this mess, the Unicode encoding has been created.
+ It is a super-encoding of all others and is therefore the default encoding for new text formats like XML.
+ Still, many computers still operate in locale with a traditional (limited) character encoding. Some programs, like mailers and web browsers,
+ must be able to convert between a given text encoding and the user's encoding. Other programs internally store strings in Unicode,
+ to facilitate internal processing, and need to convert between internal string representation (Unicode) and external string representation
+ (a traditional encoding) when they are doing I/O. GNU libiconv is a conversion library for both kinds of applications.
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: libiconv
+Author: GNU <gnu@gnu.org>
+Homepage: https://www.gnu.org/software/libiconv
+
+Package: libiconv
 Version: 1.14
 Priority: standard
 Section: Development
@@ -855,6 +881,25 @@ Architecture: iphoneos-arm
 Filename: ./debs//nano_2.6.3-2_iphoneos-arm.deb
 Size: 238126
 MD5sum: 69eb65b7862e5f8c86fda191ad34b927
+Description: free clone of Pico
+ nano is designed to be a free replacement for the Pico text editor, part of the Pine email suite from The University of Washington.
+ It aims to "emulate Pico as closely as possible and perhaps include extra functionality".
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: nano
+Author: GNU <gnu@gnu.org>
+Homepage: https://www.nano-editor.org
+
+Package: nano
+Version: 2.6.3-3
+Priority: standard
+Section: Text_Editors
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./debs//nano_2.6.3-3_iphoneos-arm.deb
+Size: 238168
+MD5sum: 82b157ec0037c93138dba1e85b77dd77
 Description: free clone of Pico
  nano is designed to be a free replacement for the Pico text editor, part of the Pine email suite from The University of Washington.
  It aims to "emulate Pico as closely as possible and perhaps include extra functionality".
