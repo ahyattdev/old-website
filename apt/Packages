@@ -1,3 +1,21 @@
+Package: apt-file
+Version: 2.5.4
+Priority: standard
+Section: Packaging
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: perl, curl
+Architecture: iphoneos-arm
+Filename: ./debs//apt-file_2.5.4_iphoneos-arm.deb
+Size: 8220
+MD5sum: 44014a8eda609a10c55cad3da3dfb023
+Description: search for files within Debian packages (command-line interface)
+ apt-file is a command line tool for searching files contained in packages
+ for the APT packaging system. You can search in which package a file is
+ included or list the contents of a package without installing or fetching it.
+Name: apt-file
+Author: Sebastien J. Gross <seb@debian.org>
+Homepage: https://packages.qa.debian.org/a/apt-file.html
+
 Package: autoconf
 Version: 2.69-1
 Priority: optional
