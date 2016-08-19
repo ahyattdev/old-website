@@ -748,6 +748,25 @@ Description: Faster address entry for Safari tabs
 Name: TypeTab
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
+Package: nano
+Version: 2.6.3
+Priority: standard
+Section: Text_Editors
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./debs//nano_2.6.3_iphoneos-arm.deb
+Size: 238684
+MD5sum: c20cb63ff20222956de4f5f51dc4cb56
+Description: free clone of Pico
+ nano is designed to be a free replacement for the Pico text editor, part of the Pine email suite from The University of Washington.
+ It aims to "emulate Pico as closely as possible and perhaps include extra functionality".
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: nano
+Author: GNU <gnu@gnu.org>
+Homepage: https://www.nano-editor.org
+
 Package: ssh-copy-id
 Version: 6.8p1-rev1
 Priority: optional
@@ -775,23 +794,6 @@ MD5sum: dca80575e5dbe45cd489149f14531ed1
 Description: Installs the ssh-copy-id command
 Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
-
-Package: top
-Version: 3.7
-Priority: important
-Section: Administration
-Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
-Depends: ncurses
-Architecture: iphoneos-arm
-Filename: ./debs//top_3.7_iphoneos-arm.deb
-Size: 40086
-MD5sum: a154c50b7f3fb545b68215458c68da1f
-Description: provides a rolling display of top CPU using processes
- Top is a Unix utility that provides a rolling display of top CPU using processes.
- .
- Compiled for armv7 and armv7s devices
-Author: William LeFebvre
-Homepage: http://www.unixtop.org
 
 Package: xz-utils
 Version: 5.2.2-1
