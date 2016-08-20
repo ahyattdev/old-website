@@ -659,6 +659,28 @@ Author: Colin Watson <cjwatson@debian.org>
 Homepage: http://man-db.nongnu.org
 
 Package: man-db
+Version: 2.7.5-2
+Priority: important
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: libpipeline, groff
+Conflicts: man, org.thebigboss.man-db
+Provides: man, org.thebigboss.man-db
+Architecture: iphoneos-arm
+Filename: ./debs//man-db_2.7.5-2_iphoneos-arm.deb
+Size: 508492
+MD5sum: dade0b6b84549f4eda540226c7161aa6
+Description: on-line manual pager
+ man-db is an implementation of the standard Unix documentation system
+ accessed using the man command. It uses a Berkeley DB database in
+ place of the traditional flat-text whatis databases.
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: man-db
+Author: Colin Watson <cjwatson>
+Homepage: http://man-db.nongnu.org
+
+Package: man-db
 Version: 2.7.5
 Priority: important
 Section: System
