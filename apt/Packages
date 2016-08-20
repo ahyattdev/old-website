@@ -208,6 +208,31 @@ Author: Andrew Hyatt <ahyattdev@icloud.com>
 Homepage: http://www.gnu.org/software/gettext/
 
 Package: groff
+Version: 1.22.3-1
+Priority: important
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Architecture: iphoneos-arm
+Filename: ./debs//groff_1.22.3-1_iphoneos-arm.deb
+Size: 3559206
+MD5sum: 2877cfe66dec9373348f371c2e60b542
+Description: typesetting system
+ Groff (GNU troff) is a typesetting system that reads plain text mixed
+ with formatting commands and produces formatted output. Output may be
+ PostScript or PDF, html, or ASCII/UTF8 for display at the terminal.
+ Formatting commands may be either low-level typesetting requests
+ (“primitives”) or macros from a supplied set. Users may also write
+ their own macros. All three may be combined. Present on most Unix
+ systems owing to its long association with Unix manuals (manpages),
+ groff is capable of producing typographically sophisticated documents
+ while consuming only minimal system resources.
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: groff
+Author: GNU <gnu@gnu.org>
+Homepage: http://www.gnu.org/software/groff
+
+Package: groff
 Version: 1.22.3
 Priority: optional
 Section: System
