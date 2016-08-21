@@ -1022,6 +1022,29 @@ Name: ssh-copy-id
 Author: Andrew Hyatt <ahyattdev@icloud.com>
 
 Package: texinfo
+Version: 6.1-1
+Priority: standard
+Section: System
+Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
+Depends: perl
+Architecture: iphoneos-arm
+Filename: ./debs//texinfo_6.1-1_iphoneos-arm.deb
+Size: 976976
+MD5sum: aacd45ad1a4d41eefb2ad1b1c7c593a5
+Description: documentation browser
+ Texinfo is the official documentation format of the GNU project. It was invented by Richard Stallman and Bob Chassell many years ago,
+ loosely based on Brian Reid's Scribe and other formatting languages of the time. It is used by many non-GNU projects as well.
+ .
+ Texinfo uses a single source file to produce output in a number of formats, both online and printed (dvi, html, info, pdf, xml, etc.).
+ This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.
+ And when the work is revised, you need revise only that one document. The Texinfo system is well-integrated with GNU Emacs.
+ .
+ Compiled for armv7, armv7s, and arm64 devices
+Name: texinfo
+Author: GNU <gnu@gnu.org>
+Homepage: https://www.gnu.org/software/texinfo
+
+Package: texinfo
 Version: 6.1
 Priority: standard
 Section: System
