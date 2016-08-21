@@ -1052,8 +1052,8 @@ Maintainer: Andrew Hyatt <ahyattdev@icloud.com>
 Depends: perl
 Architecture: iphoneos-arm
 Filename: ./debs//texinfo_6.1-2_iphoneos-arm.deb
-Size: 976898
-MD5sum: d3ed623f3a0b7bd352289e16edf4d1df
+Size: 976400
+MD5sum: 71d49206d249389c2a5a1248f2108a86
 Description: documentation browser
  Texinfo is the official documentation format of the GNU project. It was invented by Richard Stallman and Bob Chassell many years ago,
  loosely based on Brian Reid's Scribe and other formatting languages of the time. It is used by many non-GNU projects as well.
