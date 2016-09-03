@@ -14,7 +14,6 @@ document.getElementById("header").innerHTML =
 </div>
 <div class="collapse navbar-collapse" id="navbar-collapse">
 <ul class="nav navbar-nav">
-    <li><a id="about" href="/about">About</a></li>
     <li><a id="projects" href="/projects">Projects</a></li>
     <li><a id="contact" href="/contact">Contact</a></li>
 </ul>
