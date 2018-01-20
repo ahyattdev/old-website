@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Andrew’s Blog</title>
+    <link>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Blog.html</link>
+    <description>All things relating to macOS, iOS, and GNU/Linux.</description>
+    <generator>iWeb 3.0.2</generator>
+    <image>
+      <url>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Blog_files/IMG_1023.jpg</url>
+      <title>Andrew’s Blog</title>
+      <link>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Blog.html</link>
+    </image>
+    <item>
+      <title>An alternative to caffeinate on Leopard</title>
+      <link>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Entries/2018/1/20_An_alternative_to_caffeinate_on_Leopard.html</link>
+      <guid isPermaLink="false">f60fed25-4f1d-4007-ad7c-3f947974bfc3</guid>
+      <pubDate>Sat, 20 Jan 2018 11:34:32 -0800</pubDate>
+      <description>&lt;a href=&quot;https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Entries/2018/1/20_An_alternative_to_caffeinate_on_Leopard_files/Picture%201.png&quot;&gt;&lt;img src=&quot;https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Media/object002_1.png&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:185px; height:137px;&quot;/&gt;&lt;/a&gt;Recent versions of macOS have shipped with a handy utility called caffeinate which can be used to prevent system sleep, display sleep and more. Unknown to me until I attempted to use the command on a PowerBook G4 running Mac OS X 10.5.8, caffeinate postdates Mac OS X Leopard.&lt;br/&gt;&lt;br/&gt;For similar power management related activities on the command line, the utility pmset is often used. Sure enough, this utility is present on 10.5. After almost reaching the end of the manual page of pmset and about to look elsewhere, I saw our golden ticket:&lt;br/&gt;&lt;br/&gt;“noidle - pmset prevents idle sleep by creating a PM assertion to prevent idle sleep(while running; hit ctrl-c to cancel).”&lt;br/&gt;&lt;br/&gt;The same manual page from macOS 10.13.2 contains an additional bit of documentation relating to noidle:&lt;br/&gt;&lt;br/&gt;“This argument is deprecated in favor of caffeinate(8). Please use caffeinate(8) instead.”&lt;br/&gt;&lt;br/&gt;It seems fitting that it's now deprecated since caffeinate does the same thing and more as our little option.&lt;br/&gt;&lt;br/&gt;Using our newly found option, we can conclude that the way to achieve the same results as running caffeinate on Leopard is with pmset noidle.&lt;br/&gt;</description>
+      <enclosure url="https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Entries/2018/1/20_An_alternative_to_caffeinate_on_Leopard_files/Picture%201.png" length="62798" type="image/png"/>
+    </item>
+  </channel>
+</rss>

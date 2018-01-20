@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Blog</title>
+    <link>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog</link>
+    <description>All things relating to macOS, iOS, and GNU/Linux.</description>
+    <item>
+      <title>An alternative to caffeinate on Leopard</title>
+      <link>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Entries/2018/1/20_An_alternative_to_caffeinate_on_Leopard.html</link>
+      <guid isPermaLink="false">f60fed25-4f1d-4007-ad7c-3f947974bfc3</guid>
+      <pubDate>Sat, 20 Jan 2018 11:34:32 -0800</pubDate>
+      <description>Recent versions of macOS have shipped with a handy utility called caffeinate which can be used to prevent system sleep, display sleep and more. Unknown to me until I attempted to use the command on a PowerBook G4 running Mac OS X 10.5.8, caffeinate postdates Mac OS X Leopard.&lt;br/&gt;&lt;br/&gt;For similar power management related activities on the command line, the utility pmset is often used. Sure enough, this utility is present on 10.5. After almost reaching the end of the manual page of pmset and about to look elsewhere, I saw our golden ticket:&lt;br/&gt;&lt;br/&gt;&#x201C;noidle - pmset prevents idle sleep by creating a PM assertion to prevent idle sleep(while running; hit ctrl-c to cancel).&#x201D;&lt;br/&gt;&lt;br/&gt;The same manual page from macOS 10.13.2 contains an additional bit of documentation relating to noidle:&lt;br/&gt;&lt;br/&gt;&#x201C;This argument is deprecated in favor of caffeinate(8). Please use caffeinate(8) instead.&#x201D;&lt;br/&gt;&lt;br/&gt;It seems fitting that it's now deprecated since caffeinate does the same thing and more as our little option.&lt;br/&gt;&lt;br/&gt;Using our newly found option, we can conclude that the way to achieve the same results as running caffeinate on Leopard is with pmset noidle.&lt;br/&gt;</description>
+      <iweb:image href="Media/object002.png"></iweb:image>
+      <iweb:comment enabled="0" count="0" link="https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog/Entries/2018/1/20_An_alternative_to_caffeinate_on_Leopard.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, MMMM d, y</iweb:dateFormat>
+    <iweb:baseURL>https://ahyattdev.github.io/blog/Andrew_Hyatts_Blog/Blog</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

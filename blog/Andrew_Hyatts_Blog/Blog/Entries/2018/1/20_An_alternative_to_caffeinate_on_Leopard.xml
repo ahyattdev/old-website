@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="3E440F89-4F42-49DD-A583-3205076E2749">
+  <lastEdited clientType="local-build-20180120" date="2018-01-20 20:01:41 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Andrew&#x2019;s Blog&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>An alternative to caffeinate on Leopard</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Recent versions of macOS have shipped with a handy utility called caffeinate which can be used to prevent system sleep, display sleep and more. Unknown to me until I attempted to use the command on a PowerBook G4 running Mac OS X 10.5.8, caffeinate postdates Mac OS X Leopard.&#xD;&#xD;For similar power management related activities on the command line, the utility pmset is often used. Sure enough, this utility is present on 10.5. After almost reaching the end of the manual page of pmset and about to look elsewhere, I saw our golden ticket:&#xD;&#xD;&#x201C;noidle - pmset prevents idle sleep by creating a PM assertion to prevent idle sleep(while running; hit ctrl-c to cancel).&#x201D;&#xD;&#xD;The same manual page from macOS 10.13.2 contains an additional bit of documentation relating to noidle:&#xD;&#xD;&#x201C;This argument is deprecated in favor of caffeinate(8). Please use caffeinate(8) instead.&#x201D;&#xD;&#xD;It seems fitting that it's now deprecated since caffeinate does the same thing and more as our little option.&#xD;&#xD;Using our newly found option, we can conclude that the way to achieve the same results as running caffeinate on Leopard is with pmset noidle.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Saturday, January 20, 2018&lt;/b&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="20_An_alternative_to_caffeinate_on_Leopard_files/shapeimage_2.png" left="0px" top="0px" width="400px" height="296px"/>
+</content>
